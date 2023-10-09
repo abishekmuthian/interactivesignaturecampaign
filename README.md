@@ -81,11 +81,29 @@ $ pip install -r requirements.txt
 $ streamlit run streamlit_app.py
 ```
 
+4.Add `.streamlit/secrets.toml`
+
+5.Configuration
+| Key | Value |Example|
+|---|---|---|
+|openai_key|Open AI Chat GPT Key|sk-xxxxxx|
+|dropbox_sign_key|Dropbox Sign API Key |xxxxxx|
+|template_id|Template ID from Dropbox Sign|xxxxxx|
+|title|Title for the campaign|World Without GNE Myopathy|
+|email_subject|Subject for the email through which the petition would be sent to the signee|WWGM sign the petition!|
+|email_message|Message to be sent with the petition email|By signing this petition, you not only lend your voice to the countless individuals affected by GNE Myopathy but also champion the cause for an inclusive healthcare system in India. Together, we can pave the way for better diagnosis, treatment, and support. Stand with us in urging the Indian Government to recognize and include GNE Myopathy in its Rare Diseases Policy.|
+|signer_role|Role declared for signee in the the Dropbox Sign, Must be 'Signee'|Signee|
+|bot_spinner|Text to display when the bot is indexing data|Loading and indexing the GNE Myopathy faqs from WWGM – hang tight! This should take 1-2 minutes.|
+|bot_intro|Intro message displayed by the bot|Ask me a question about this campaign and GNE Myopathy!|
+|bot_context|System context for the bot for better accuracy of the answers|You are an expert on the GNE Myopathy and your job is to answer health questions. Assume that all questions are related to the GNE Myopathy. Keep your answers medical and based on facts – do not hallucinate diseases.|
+
 ## Deployment
 
-Click deploy on the top right and follow the on screen instructions to deploy the app on streamlit community cloud.
+1. Click deploy on the top right and follow the on screen instructions to deploy the app on streamlit community cloud.
 
 ![Click on the deploy button to deploy](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/10.png)
+
+2. Copy your secrets `./streamlit/secrets.toml` from to streamlit's secrets section.
 
 ## LICENSE
 
