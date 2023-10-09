@@ -153,7 +153,7 @@ if st.session_state.messages[-1]["role"] != "assistant":
 
 # Set the sidebar for navigation
 st.sidebar.title("Interactive Signature Campaign")
-st.sidebar.markdown("Get your own low code Interactive Signature Campaign using from [GitHub](https://github.com/abishekmuthian/interactivesignaturecampaign).")
+st.sidebar.markdown("Get your own low code Interactive Signature Campaign from [GitHub](https://github.com/abishekmuthian/interactivesignaturecampaign).")
 st.sidebar.write("Built by Abishek Muthian.")
 st.sidebar.markdown("---") 
 st.sidebar.markdown("Powered by [Dropbox Sign](https://www.hellosign.com/features).")
