@@ -25,7 +25,7 @@ Clicking the above image will open the demo video in YouTube.
 Signature campaign page
 ![World Without Myopathy GNE Myopathy signature campaign](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/1.gif)
 
-Interactive Chat Bot to answer questions on your signature campaign
+Interactive chat bot to answer questions on your signature campaign
 ![Interactive chat bot](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/2.png)
 
 ![Interactive chat bot](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/3.png)
