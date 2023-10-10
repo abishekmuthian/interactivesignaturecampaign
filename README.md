@@ -4,7 +4,7 @@ Interactive Signature Campaign is an low-code, easily deployable platform that e
 
 ## Demo Video
 
-[![Interactive Signature Campaign powered by Dropbox Sign](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/thumbnail.png)](https://youtu.be/ht9FEW7Q2Sk)
+[![Interactive Signature Campaign powered by Dropbox Sign](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/thumbnail.png)](https://www.youtube.com/watch?v=CbjNGZ68T6A)
 
 Clicking the above image will open the demo video in YouTube.
 
@@ -23,7 +23,7 @@ Clicking the above image will open the demo video in YouTube.
 ## Screenshots
 
 Signature campaign page
-![World Without Myopathy GNE Myopathy campaign](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/1.gif)
+![World Without Myopathy GNE Myopathy signature campaign](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/1.gif)
 
 Interactive Chat Bot to answer questions on your signature campaign
 ![Interactive chat bot](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/2.png)
@@ -75,11 +75,11 @@ $ python -m venv .venv
 $ pip install -r requirements.txt
 ```
 
-3.Run the app using streamlit.
+3.Replace the files inside the `data` folder with your campaign data.
 
-```
-$ streamlit run streamlit_app.py
-```
+3.a. Create `index.md` with signature campaign page in markdown inside the data folder.
+
+3.b. Add other markdown files inside the data folder to provide information to the chat bot.
 
 4.Add `.streamlit/secrets.toml`
 
@@ -96,6 +96,12 @@ $ streamlit run streamlit_app.py
 |bot_spinner|Text to display when the bot is indexing data|Loading and indexing the GNE Myopathy faqs from WWGM – hang tight! This should take 1-2 minutes.|
 |bot_intro|Intro message displayed by the bot|Ask me a question about this campaign and GNE Myopathy!|
 |bot_context|System context for the bot for better accuracy of the answers|You are an expert on the GNE Myopathy and your job is to answer health questions. Assume that all questions are related to the GNE Myopathy. Keep your answers medical and based on facts – do not hallucinate diseases.|
+
+6.Run the app using streamlit.
+
+```
+$ streamlit run streamlit_app.py
+```
 
 ## Deployment
 
