@@ -81,7 +81,7 @@ $ pip install -r requirements.txt
 
 3.b. Add other markdown files inside the data folder to provide information to the chat bot.
 
-4.Create Dropbox Sign template by following the instuctions in the [video](https://www.youtube.com/watch?v=CbjNGZ68T6A).
+4.Create Dropbox Sign template by following the instructions in the [video](https://www.youtube.com/watch?v=CbjNGZ68T6A).
 
 5.Add `.streamlit/secrets.toml`
 
