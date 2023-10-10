@@ -35,7 +35,6 @@ st.markdown(intro_markdown, unsafe_allow_html=True)
 # Three columns with same widths for centering
 col1, col2, col3 = st.columns([1,1,1])
 
-# Using 'with' notation:
 with col2:
     st.header('Your Signature Matters!')
 
@@ -56,7 +55,7 @@ with col2:
     if email and not re.match(EMAIL_REGEX, email):
         st.warning("Please enter a valid email address.")
 
-    # If you'd like to take further action after the inputs are validated, you can do so here.
+    # If the validation is successful
     if full_name and email and len(full_name.split()) >= 2 and re.match(EMAIL_REGEX, email):
         # Do something, e.g., save the data, send an email, etc.
         if st.button("Sign campaign"):
@@ -157,6 +156,5 @@ st.sidebar.markdown("Get your own low code Interactive Signature Campaign from [
 st.sidebar.write("Built by Abishek Muthian.")
 st.sidebar.markdown("---") 
 st.sidebar.markdown("Powered by [Dropbox Sign](https://www.hellosign.com/features).")
-
 
 

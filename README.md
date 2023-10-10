@@ -15,8 +15,8 @@ Clicking the above image will open the demo video in YouTube.
 ## Features
 
 - Interactive Chat GPT + LlamaIndex powered chat bot to answer questions regarding your campaign.
-- Get signatures from your signers interactively.
-- Signed petitions delivered to your email.
+- Get signatures from your signers interactively using Dropbox Sign.
+- Signed petitions delivered to your email using Dropbox Sign.
 - Easy one click deployment.
 - Low code, publish your interactive signature campaign with just markdown and toml files.
 
