@@ -4,7 +4,7 @@ Interactive Signature Campaign is an low-code, easily deployable platform that e
 
 ## Demo Video
 
-![Interactive Signature Campaign powered by Dropbox Sign](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/thumbnail.png)
+[![Interactive Signature Campaign powered by Dropbox Sign](https://interactivesignaturecampaign.s3.us-east-2.amazonaws.com/thumbnail.png)](https://youtu.be/ht9FEW7Q2Sk)
 
 Clicking the above image will open the demo video in YouTube.
 
