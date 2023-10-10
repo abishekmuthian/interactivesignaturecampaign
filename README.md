@@ -81,9 +81,11 @@ $ pip install -r requirements.txt
 
 3.b. Add other markdown files inside the data folder to provide information to the chat bot.
 
-4.Add `.streamlit/secrets.toml`
+4.Create Dropbox Sign template by following the instuctions in the [video](https://www.youtube.com/watch?v=CbjNGZ68T6A).
 
-5.Configuration
+5.Add `.streamlit/secrets.toml`
+
+6.Configuration
 | Key | Value |Example|
 |---|---|---|
 |openai_key|Open AI Chat GPT Key|sk-xxxxxx|
@@ -97,7 +99,7 @@ $ pip install -r requirements.txt
 |bot_intro|Intro message displayed by the bot|Ask me a question about this campaign and GNE Myopathy!|
 |bot_context|System context for the bot for better accuracy of the answers|You are an expert on the GNE Myopathy and your job is to answer health questions. Assume that all questions are related to the GNE Myopathy. Keep your answers medical and based on facts – do not hallucinate diseases.|
 
-6.Run the app using streamlit.
+7.Run the app using streamlit.
 
 ```
 $ streamlit run streamlit_app.py
